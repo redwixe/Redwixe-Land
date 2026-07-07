@@ -327,25 +327,29 @@ nav ul li a:hover{
 }
 
 .hero-content h1{
+.hero-content h1{
 
-    font-size:110px;
+    font-size:clamp(70px,10vw,170px);
 
     font-weight:800;
 
-    letter-spacing:3px;
+    letter-spacing:5px;
+
+    color:#ffffff;
 
     text-transform:none;
 
+    line-height:1;
+
     margin-bottom:20px;
 
-    color:white;
-
     text-shadow:
+    0 0 15px rgba(255,255,255,.15),
+    0 0 40px rgba(255,255,255,.10),
+    0 15px 40px rgba(0,0,0,.70);
 
-    0 0 20px rgba(255,255,255,.15),
-
-    0 0 45px rgba(255,255,255,.10);
-
+    animation:titleAnimation 1.8s ease;
+}
 }
 
 .hero-content p{
