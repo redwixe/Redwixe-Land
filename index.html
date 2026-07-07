@@ -1,26 +1,20 @@
 <!DOCTYPE html>
 <html lang="tr">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Winx-Land</title>
+    <title>Winx-Land</title>
 
-<link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css">
 
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap" rel="stylesheet">
-
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
 </head>
 
 <body>
 
-<div class="loader">
-
-<h1>Winx-Land</h1>
-
+<div id="loader">
+    <h1>Winx-Land</h1>
 </div>
 
 <header>
@@ -28,20 +22,18 @@
 <nav>
 
 <div class="logo">
-
 Winx-Land
-
 </div>
 
 <ul>
 
 <li><a href="#">Ana Sayfa</a></li>
 
-<li><a href="#">Duyurular</a></li>
+<li><a href="#duyuru">Duyurular</a></li>
 
-<li><a href="#">Kurallar</a></li>
+<li><a href="#kurallar">Kurallar</a></li>
 
-<li><a href="#">Ekibimiz</a></li>
+<li><a href="#ekip">Ekibimiz</a></li>
 
 <li><a href="#">Discord</a></li>
 
@@ -53,22 +45,16 @@ Winx-Land
 
 <section class="hero">
 
-<div class="overlay"></div>
-
 <div class="hero-content">
 
 <h1>Winx-Land</h1>
 
 <p>
-
-Minecraft'ın yeni nesil deneyimine hoş geldin.
-
+Yeni nesil Minecraft deneyimi.
 </p>
 
-<a href="#" class="button">
-
+<a href="#" class="btn">
 Discord'a Katıl
-
 </a>
 
 </div>
@@ -77,38 +63,32 @@ Discord'a Katıl
 
 <section class="cards">
 
-<div class="card">
+<div class="card" id="duyuru">
 
-<h2>Duyuru</h2>
+<h2>Duyurular</h2>
 
 <p>
-
-Sunucumuz çok yakında açılıyor.
-
+Sunucu çok yakında açılıyor.
 </p>
 
 </div>
 
-<div class="card">
+<div class="card" id="kurallar">
 
-<h2>Optimizasyon</h2>
+<h2>Kurallar</h2>
 
 <p>
-
-Lag minimum seviyede.
-
+Saygılı ol, hile kullanma, eğlen!
 </p>
 
 </div>
 
-<div class="card">
+<div class="card" id="ekip">
 
-<h2>Topluluk</h2>
+<h2>Ekibimiz</h2>
 
 <p>
-
-kalitethebest
-
+Profesyonel yönetim ekibi.
 </p>
 
 </div>
@@ -124,5 +104,4 @@ kalitethebest
 <script src="script.js"></script>
 
 </body>
-
 </html>
