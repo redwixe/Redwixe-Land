@@ -647,3 +647,68 @@ box-shadow:0 10px 40px rgba(0,0,0,.6);
 transition:.4s;
 
 }
+/* ==========================
+   STATS
+========================== */
+
+.stats{
+
+width:90%;
+
+max-width:1300px;
+
+margin:120px auto;
+
+display:grid;
+
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+
+gap:30px;
+
+}
+
+.stat-box{
+
+background:rgba(255,255,255,.05);
+
+backdrop-filter:blur(20px);
+
+border:1px solid rgba(255,255,255,.08);
+
+border-radius:25px;
+
+padding:45px;
+
+text-align:center;
+
+transition:.4s;
+
+}
+
+.stat-box:hover{
+
+transform:translateY(-10px);
+
+border-color:white;
+
+box-shadow:0 20px 60px rgba(255,255,255,.08);
+
+}
+
+.stat-box h2{
+
+font-size:55px;
+
+font-weight:800;
+
+margin-bottom:10px;
+
+}
+
+.stat-box p{
+
+color:#bfbfbf;
+
+font-size:18px;
+
+}
